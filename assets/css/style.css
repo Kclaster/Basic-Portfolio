@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/small_steps/small_steps/small_steps.png)
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding:  18.5px 30px;
+    font-size: 38px
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 38px
+}
+
+p,
+a,
+h6 {
+    color: #777777;
+}
+
+header {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+}
+
+footer{
+    background-color: #666666;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 40px 0 115px 0;
+    width: 960px;
+    display: block;
+}
+
+h1 {
+    font-family: 'Georgia, Times, Times New Roman, serif;'
+    //need to find out what is paired with what
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    overflow: wrap;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 6px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article {
+    border-top: 1px solid #dddddd;
+    padding: -10px;
+    overflow: wrap;
+    
+}
+
+img {
+    width: 200px;
+}
+
+.article-image {
+    float: right;
+    
+}
+
+form {
+    width: 900px;
+    margin: 30px 30px 0 30px;
+    padding-top: 30px;
+    border-top: 2px solid #777777;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin: 5px 0 20px 0;
+}
+
+form p {
+    margin: 0;
+}
+
+.button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 115px;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    width: 66%;
+    margin-left: 4vw;
+}
+
+.item-container h3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top: -40px;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    z-index: 2;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.item-container img {
+    z-index: 1;
+    width: 200px;
+}
+
+.item-container a {
+    margin-bottom: 4vh;
+    width: 200px;
+}
+
